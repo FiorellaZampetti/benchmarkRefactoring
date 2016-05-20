@@ -17,12 +17,9 @@ public class Owing {
 	public int getInvoiceableCreditLimit(){
 		return invoiceableCreditLimit;
 	} 
-	public boolean moreThanFiveLateDeliveries(){
-		return _moreThanFiveLateDeliveries>5;
-	}
 	
 	public int getRating(){
-		return (moreThanFiveLateDeliveries()) ? 2:1;
+		return (_moreThanFiveLateDeliveries>5) ? 2:1;
 	}
 
 	public void setRating(int rating) {
