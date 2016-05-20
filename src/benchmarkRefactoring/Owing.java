@@ -6,7 +6,11 @@ public class Owing {
 	public double outstanding;
 	public int rating;
 	public int _moreThanFiveLateDeliveries;
+	public int invoiceableCreditLimit;
 	
+	public int getinvcdtlmt(){
+		return invoiceableCreditLimit;
+	} 
 	public boolean moreThanFiveLateDeliveries(){
 		return _moreThanFiveLateDeliveries>5;
 	}
