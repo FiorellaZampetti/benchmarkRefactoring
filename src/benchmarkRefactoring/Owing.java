@@ -1,5 +1,7 @@
 package benchmarkRefactoring;
 
+import javax.xml.crypto.Data;
+
 public class Owing {
 
 	public String _name;
@@ -8,7 +10,7 @@ public class Owing {
 	public int _moreThanFiveLateDeliveries;
 	public int invoiceableCreditLimit;
 	
-	public double getContact(){
+	public double getContact(Data data){
 		return rating*outstanding;
 	}
 	
