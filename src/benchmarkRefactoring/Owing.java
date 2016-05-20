@@ -8,6 +8,10 @@ public class Owing {
 	public int _moreThanFiveLateDeliveries;
 	public int invoiceableCreditLimit;
 	
+	public double getContact(){
+		return rating*outstanding;
+	}
+	
 	public int getinvcdtlmt(){
 		return invoiceableCreditLimit;
 	} 
