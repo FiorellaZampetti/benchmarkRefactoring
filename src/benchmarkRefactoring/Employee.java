@@ -5,6 +5,21 @@ public class Employee {
 	public double quota;
 	public String name;
 	public double annualCost;
+	public Department department;
+	public double rate;
+	public boolean specialSkill;
+	
+	public Department getDepartment(){
+		return department;
+	}
+	
+	public double getRate(){
+		return rate;
+	}
+	
+	public boolean hasSpecialSkill(){
+		return specialSkill;
+	}
 	public double getAnnualCost() {
 		return annualCost;
 	}
