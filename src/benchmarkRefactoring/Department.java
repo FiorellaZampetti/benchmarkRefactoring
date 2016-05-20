@@ -1,17 +1,17 @@
 package benchmarkRefactoring;
 
-public class Department {
+public class Department extends Party{
 
-	public String name;
+	//public String name;
 	public double totalAnnualCost;
 	public int headCount;
 	
-	public String getName() {
+	/*public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
-	}
+	}*/
 	public double getTotalAnnualCost() {
 		return totalAnnualCost;
 	}

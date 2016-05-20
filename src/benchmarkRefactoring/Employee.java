@@ -1,8 +1,8 @@
 package benchmarkRefactoring;
 
-public class Employee {
+public class Employee extends Party{
 	
-	public String name;
+	//public String name;
 	public double annualCost;
 	public Department department;
 	public double rate;
@@ -42,8 +42,8 @@ public class Employee {
 
 	public int id;
 	
-	public String getName(){
+/*	public String getName(){
 		return name;
-	}
+	}*/
 
 }
