@@ -5,8 +5,8 @@ public class Employee {
 	public String name;
 	public double annualCost;
 	public Department department;
-/*	public double rate;
-	public boolean specialSkill;*/
+	public double rate;
+	public boolean specialSkill;
 	public Person _person;
 	
 	public int getOfficeAreaCode(){
@@ -17,13 +17,13 @@ public class Employee {
 		return department;
 	}
 	
-/*	public double getRate(){
+	public double getRate(){
 		return rate;
 	}
 	
 	public boolean hasSpecialSkill(){
 		return specialSkill;
-	}*/
+	}
 	public double getAnnualCost() {
 		return annualCost;
 	}
