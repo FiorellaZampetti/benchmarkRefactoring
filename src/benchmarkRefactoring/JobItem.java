@@ -5,6 +5,12 @@ public class JobItem {
 	double totalPrice;
 	double unitPrice;
 	Employee employee;
+	int _low;
+	int _high;
+	
+	boolean includes (int arg){
+		return arg >= _low && arg<=_high;
+	}
 	
 	public double getTotalPrice() {
 		return totalPrice;
