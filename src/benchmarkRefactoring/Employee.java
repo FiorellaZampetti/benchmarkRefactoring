@@ -9,9 +9,9 @@ public class Employee implements Billable{
 	public boolean specialSkill;
 	public Person _person;
 	
-	public int getOfficeAreaCode(){
+/*	public int getOfficeAreaCode(){
 		return _person.getOfficeAreaCode();
-	}
+	}*/
 	
 	public Department getDepartment(){
 		return department;
