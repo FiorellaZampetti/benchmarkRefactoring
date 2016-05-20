@@ -1,22 +1,22 @@
 package benchmarkRefactoring;
 
-public class Employee implements Billable{
+public class Employee extends Person  implements Billable {
 	
 	//public String name;
 	public double annualCost;
 	public Department department;
 	public double rate;
 	public boolean specialSkill;
-	public Person _person;
+//	public Person _person;
 	public double quota;
 	
 	public double getQuota(){
 		return quota;
 	}
 	
-	public int getOfficeAreaCode(){
+/*	public int getOfficeAreaCode(){
 		return _person.getOfficeAreaCode();
-	}
+	}*/
 	
 	public Department getDepartment(){
 		return department;
@@ -46,9 +46,5 @@ public class Employee implements Billable{
 	}
 
 	public int id;
-	
-	public String getName(){
-		return _person.getName();
-	}
 
 }
