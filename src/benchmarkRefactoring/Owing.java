@@ -45,13 +45,16 @@ public class Owing {
 	public void printOwing(){
 		printBanner();
 		
-		//print details
-		System.out.println("name: "+ _name);
-		System.out.println("amount "+getOutstanding());
+		printDetails(getOutstanding());
 	}
 
 	private void printBanner() {
 		System.out.println("print banner method");
 		
+	}
+	
+	public void printDetails(double outstanding){
+		System.out.println("name: "+ _name);
+		System.out.println("amount "+outstanding);
 	}
 }
