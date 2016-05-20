@@ -4,7 +4,7 @@ public class JobItem {
 
 	double totalPrice;
 	double unitPrice;
-	Employee employee;
+	//Employee employee;
 	int _low;
 	int _high;
 	
@@ -32,12 +32,12 @@ public class JobItem {
 	public void setUnitPrice(double unitPrice) {
 		this.unitPrice = unitPrice;
 	}
-	public Employee getEmployee() {
+/*	public Employee getEmployee() {
 		return employee;
 	}
 	public void setEmployee(Employee employee) {
 		this.employee = employee;
-	}
+	}*/
 
 	
 }
