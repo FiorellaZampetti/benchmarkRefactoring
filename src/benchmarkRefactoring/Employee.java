@@ -1,12 +1,12 @@
 package benchmarkRefactoring;
 
-public class Employee extends Party{
+public class Employee {
 	
-	//public String name;
+	public String name;
 	public double annualCost;
 	public Department department;
-	public double rate;
-	public boolean specialSkill;
+/*	public double rate;
+	public boolean specialSkill;*/
 	public Person _person;
 	
 	public int getOfficeAreaCode(){
@@ -17,13 +17,13 @@ public class Employee extends Party{
 		return department;
 	}
 	
-	public double getRate(){
+/*	public double getRate(){
 		return rate;
 	}
 	
 	public boolean hasSpecialSkill(){
 		return specialSkill;
-	}
+	}*/
 	public double getAnnualCost() {
 		return annualCost;
 	}
@@ -42,8 +42,8 @@ public class Employee extends Party{
 
 	public int id;
 	
-/*	public String getName(){
+	public String getName(){
 		return name;
-	}*/
+	}
 
 }
