@@ -8,6 +8,11 @@ public class Employee {
 	public Department department;
 	public double rate;
 	public boolean specialSkill;
+	public Person _person;
+	
+	public int getOfficeAreaCode(){
+		return _person.getOfficeAreaCode();
+	}
 	
 	public Department getDepartment(){
 		return department;
