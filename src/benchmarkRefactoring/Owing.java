@@ -4,13 +4,27 @@ public class Owing {
 
 	public String _name;
 	public double outstanding;
+	public int rating;
+	public int _moreThanFiveLateDeliveries;
 	
-	public String get_name() {
-		return _name;
+	public boolean moreThanFiveLateDeliveries(){
+		return _moreThanFiveLateDeliveries>5;
+	}
+	
+	public int getRating(){
+		return (moreThanFiveLateDeliveries()) ? 2:1;
 	}
 
-	public void set_name(String _name) {
-		this._name = _name;
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
+
+	public String getName() {
+		 return _name;
+	}
+
+	public void setName(String name) {
+		_name = name;
 	}
 
 	public double getOutstanding() {
