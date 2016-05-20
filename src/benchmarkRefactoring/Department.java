@@ -18,9 +18,10 @@ public class Department extends Party{
 	public void setTotalAnnualCost(double totalAnnualCost) {
 		this.totalAnnualCost = totalAnnualCost;
 	}
-	public int getHeadCount() {
+/*	public int getHeadCount() {
 		return headCount;
-	}
+	}*/
+	
 	public void setHeadCount(int headCount) {
 		this.headCount = headCount;
 	}

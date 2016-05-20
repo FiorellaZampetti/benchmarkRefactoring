@@ -9,6 +9,11 @@ public class Owing {
 	public int rating;
 	public int _moreThanFiveLateDeliveries;
 	public int invoiceableCreditLimit;
+	public int headCount;
+	
+	public int getHeadCount() {
+		return headCount;
+	}
 	
 	public double getContact(){
 		return rating*outstanding;
