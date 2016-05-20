@@ -9,7 +9,15 @@ public class JobItem {
 	int _high;
 	
 	boolean includes (int arg){
-		return arg >= _low && arg<=_high;
+		return arg >= getLow() && arg<=getHigh();
+	}
+	
+	public int getLow (){
+		return _low;
+	}
+	
+	public int getHigh(){
+		return _high;
 	}
 	
 	public double getTotalPrice() {
