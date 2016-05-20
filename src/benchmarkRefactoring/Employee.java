@@ -8,6 +8,11 @@ public class Employee implements Billable{
 	public double rate;
 	public boolean specialSkill;
 	public Person _person;
+	public double quota;
+	
+	public double getQuota(){
+		return quota;
+	}
 	
 /*	public int getOfficeAreaCode(){
 		return _person.getOfficeAreaCode();
