@@ -3,10 +3,9 @@ package benchmarkRefactoring;
 public class Person {
 
 	public String name;
-	/*public int officeAreaCode;
-	public int officeNumber;*/
+	public int officeAreaCode;
+	public int officeNumber;
 	public int id;
-	public TelephonNumber tf = new TelephonNumber();
 	
 	public boolean participate(Project p){
 		for(int i=0;i<p.participants.length; i++){
@@ -21,7 +20,7 @@ public class Person {
 	public void setName(String name) {
 		this.name = name;
 	}
-/*	public int getOfficeAreaCode() {
+	public int getOfficeAreaCode() {
 		return officeAreaCode;
 	}
 	public void setOfficeAreaCode(int officeAreaCode) {
@@ -29,9 +28,9 @@ public class Person {
 	}
 	public void setTelephoneNumber(int officeNumber) {
 		this.officeNumber = officeNumber;
-	}*/
+	}
 	
 	public int getTelephoneNumber(){
-		return tf.getTelephoneNumber();
+		return this.getTelephoneNumber();
 	}
 }

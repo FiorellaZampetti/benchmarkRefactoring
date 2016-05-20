@@ -14,9 +14,9 @@ public class Employee implements Billable{
 		return quota;
 	}
 	
-/*	public int getOfficeAreaCode(){
+	public int getOfficeAreaCode(){
 		return _person.getOfficeAreaCode();
-	}*/
+	}
 	
 	public Department getDepartment(){
 		return department;
